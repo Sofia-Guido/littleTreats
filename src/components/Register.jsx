@@ -11,7 +11,7 @@ const[userSelection, setUserSelection]=useState({
      phone: '',
      email: '',
      password: ''
-})
+}) 
 
 const handleChange=e=>{
   const {name, value}= e.target;
