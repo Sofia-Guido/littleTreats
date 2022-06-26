@@ -109,7 +109,7 @@ const peticionPost=async()=>{
             value="Registrarse"
             className="cursor-pointer font-poppins rounded-full px-6 py-1 bg-white bg-opacity-50 hover:bg-white hover:bg-opacity-80 "
             onClick={()=>peticionPost()}
-           ></button>
+           ></button>   
         </form>
       </div>
     </div>
