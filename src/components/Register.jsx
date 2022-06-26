@@ -23,13 +23,11 @@ const handleChange=e=>{
 }
 
 const peticionPost=async()=>{
-  alert('uwu');
   await axios.post(serverURL, userSelection)
   .then(response=>{
     setData(data.concat(response.data));
   }).catch(error=> {
     console.log(error);
-    alert(error);
   })
 }
 
